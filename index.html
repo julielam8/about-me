@@ -3,36 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>julie's website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--font import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>julie</h1>
+    <nav class="nav-bar">
+        <a href="index.html">home</a>
+        <a href="projects.html">projects</a>
+        <a href="#contact">contact</a>
+    </nav>
     <div class="intro">
-        <p>hello, I am learning how to code websites with HTML.</p>
+        <h1 class="name">julie</h1>
+        <img src= "https://storage.googleapis.com/pod_public/750/227303.jpg" alt="The Beach and the Falaise d'Amont by Claude Monet" style="width: 20%" id="image-1">
+        <p>hello, i am a student learning how to code websites with HTML and CSS. i love music and words and the way the seasons are perpetually changing and how the sunlight reaches through the leaves of trees and the fact that we are always constantly feeling <i>something.</i> i'm trying not to forget that i'm alive.</p>
     </div>
-    <br>
-    <h3>what did i have for <i>breakfast?</i></h3>
-    <p>today I ate waffles :]</p>
-    <br>
-    <h3>what are some interesting animals?</h3>
-    <div class="list">
-    <ul>
+    <div class="section">
+        <h3 class="section-heading">what did i have for <i>breakfast?</i></h3>
+        <p>today I ate waffles :]</p>
+    </div>
+    <div class="section">
+    <h3 class="section-heading">what are some interesting animals?</h3>
+    <ul id="animal-list">
         <li>dogs!</li>
         <li>jellyfish!</li>
         <li>elephants!</li>
         <li>zombie snails!</li>
     </ul>
     </div>
-    <div class="image1">
-        <img src="images/beach.JPG" alt="photo of the beach" width="30%">
-    </div>
-    <div class="links">
-    <h3>links</h3>
-        <a href="https://radio.garden/" target="_blank">radio garden</a><br>
+    <div class="section">
+    <h3 class="section-heading">links</h3>
+        <a href="https://radio.garden/" target="_blank">radio garden</a><br><br>
         <a href="https://archive.org/" target="_blank">internet archive</a>
     </div>
-    <h3>my hobbies</h3>
-    <div class="list">
+    <div class="section">
+    <h3 class="section-heading">my hobbies</h3>
         <ol>
             <li>reading</li>
             <li>music</li>
@@ -41,6 +49,5 @@
             <li>learning about and obsessing over everything</li>
         </ol>
     </div>
-    <a href="projects.html">visit my projects page</a>
 </body>
 </html>
